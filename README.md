@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To run database with dummy data
+
+### `npx json-server --watch data/db.json --port 8000`
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -68,3 +72,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Blogs Endpoint
+
+### http://localhost:8000/blogs (FETCH ALL BLOGS)
+
+### http://localhost:8000/blogs/{id} (FETCH A SINGLE BLOG)
+
+### http://localhost:8000/blogs (POST A BLOG)
+
+### http://localhost:8000/blogs/{id} (DELETE A SINGLE BLOG)
